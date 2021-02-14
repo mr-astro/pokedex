@@ -1,0 +1,19 @@
+.navbar {
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &--titulo {
+            font-family: $secundary-font;
+            font-size: $font-size-xxx-large;
+            font-weight: $spartan-weight-bold;
+        }
+    }
+
+    &__form, &__input, &__button {
+        margin: 1rem 0.2rem;
+    }
+}

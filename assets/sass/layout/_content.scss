@@ -1,0 +1,20 @@
+.content {
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    &__pokeI {
+        &--titulo {
+            text-transform: uppercase;
+            font-family: $secundary-font;
+            font-size: $font-size-small;
+            font-weight: $spartan-weight-medium;
+        }
+        &--img {
+            width: 40%;
+        }
+    }
+}

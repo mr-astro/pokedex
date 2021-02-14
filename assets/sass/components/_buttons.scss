@@ -1,0 +1,9 @@
+.navbar {
+    &__form {
+        &--boton {
+            color:$white;
+            background-color: $steelblue;
+            border: 1px $gray solid;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google FONT-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Spartan:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <!--CDN Google APIS JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--CDN CANVAS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/jquery.canvasjs.min.js"></script>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/logo.png">
+    <title>Desafio Pokédex</title>
+</head>
+
+<body>
+    <!--Hero section-->
+    <header class="">
+        <div class="hero"></div>
+    </header>
+
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="container navbar__contenedor">
+            <form id="formP" class="navbar__form col-12">
+                <h1 class="navbar__form--titulo">POKEDEX</h1>
+                <div class="navbar__form--input">
+                    <label for="numberP" class="">Ingrese el número de pokemon aconsultar</label>
+                    <input type="text" class="navbar__input" id="numberP" placeholder="número de 1 a 898">
+                </div>
+                <div class=" navbar__form--button">
+                    <button type="submit" class="btn navbar__form--boton">Consultar</button>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <!--Contenido-->
+    <main class="container content">
+        <div class="text-center">
+            <div class="content__info row">
+                <div class="col-12 col-lg-4 content__pokeI"></div>
+                <div class="col-12 col-lg-8 content__pokeH" style="height: 300px; width: auto;"></div>
+            </div>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer container-fluid">
+        <section class="row">
+            <div class="footer__logo col-12 col-lg-6">
+                <img class="footer__logo--img" src="assets/images/logo_footer.png" alt="">
+            </div>
+            <div class="footer__text col-12 col-lg-6">
+                <p>Pokemon 2021</p>
+                <p>Todos los derechos reservados ©</p>
+            </div>
+        </section>
+    </footer>
+
+    <!--Java Script-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
